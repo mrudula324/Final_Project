@@ -25,6 +25,7 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
      - XgBoost
      
   We ran models with various resampling methods, as the data set is found to be biased. 
+  
      - Imbalanced dataset
      - SMOTENN
      - SelectKBEST
