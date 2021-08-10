@@ -27,9 +27,9 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
 7. Univariate analysis for specific variables to understand their distribution.
 8. Bivariate analysis, plots were done to understand relation between variables and observations were documented.
 9. Multivariate analysis for identify the hightly correlated independent variables.
-10.Heatmap is created to anlyze the correlation between all independent variables.
-11.Pandas profiler is executed to understand the eda view from pandas.
-12.Feature Selection
+10. 10.Heatmap is created to anlyze the correlation between all independent variables.
+11. 11.Pandas profiler is executed to understand the eda view from pandas.
+12. 12.Feature Selection
    -RFE with logistic regression is executed to get the features list based on the rankings.
    -SelectKBest, Method from sklearn library is also used for feature rankings.
 13.Created funcations for model evaluations, roc and roc-auc plotting.
