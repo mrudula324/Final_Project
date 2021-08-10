@@ -39,7 +39,6 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
    - We also tried manual sampling the same number of records as minority class and perfomed modeling. But results turned out be undesirable.
 15.Supervised machine leaning modeling:
   - Logistic Regression 
-      
   - Random Forest
   - KNN
   - XgBoost
