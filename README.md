@@ -23,10 +23,12 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
      - Random Forest
      - KNN
      - XgBoost
+     
   We ran models with various resampling methods, as the data set is found to be biased. 
      - Imbalanced dataset
      - SMOTENN
      - SelectKBEST
+     
   roc,roc-auc curves were plotted for all the methods.
 10. Model scores were tabulated for comparision.
 
