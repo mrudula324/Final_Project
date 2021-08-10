@@ -29,15 +29,7 @@ Data Analysis:
   - SelectKBEST
   roc,roc-auc curves were plotted for all the methods.
 10. Model scores were tabulated for comparision.
-	F1 Score	AUC	roc_auc_score	Recall	Precision
-KNN	0.93	0.94	0.58	0.87	0.84
-KNN-SMOTEEN	0.89	0.94	0.65	0.82	0.82
-XGBoost	0.93	0.94	0.6	0.87	0.85
-XGBoost-SMOTEEN	0.9	0.96	0.75	0.83	0.85
-Logistic Regression	0.84	0.98	0.58	0.87	0.84
-Logistic Regression - SMOTENN	0.78	0.96	0.79	0.74	0.88
-Random Forest	0.8	0.93	0.5	0.86	0.74
-Random Forest - SMOTENN	0.82	0.96	0.76	0.79	0.87![image](https://user-images.githubusercontent.com/79874273/128814414-372a0cc8-bd5b-4d64-b3c0-83e65581e4b1.png)
+![image](https://user-images.githubusercontent.com/79874273/128814414-372a0cc8-bd5b-4d64-b3c0-83e65581e4b1.png)
 
 ***
 Results:
