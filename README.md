@@ -30,7 +30,7 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
 10. Heatmap is created to anlyze the correlation between all independent variables. 
 11. Pandas profiler is executed to understand the eda view from pandas. 
 12. Feature Selection 
-      -RFE with logistic regression is executed to get the features list based on the rankings. 
+      -RFE with logistic regression is executed to get the understand f
       -SelectKBest, Method from sklearn library is also used for feature rankings. 
 13. Created funcations for model evaluations, roc and roc-auc plotting. 
 14. On step 1 we understood that dataset is imbalanced therefore, we tried following resampling methods for the all the models.
