@@ -19,25 +19,27 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
    - documentation can be found in week24_final_project_ETL.ipynb.
    - Now azure is connected ready to use and can connected to query records any time.
    - We also connected postgress to local host.
-5. Feature Engineering
-   -
-5. One hot encoding and Label encoding
-6. Outliers removal
-7. Univariate analysis for important variables
-8. Bivariate analysis to understand relation between variables
-9. Multivariate analysis for identify the hightly correlated independent variables
-10. Machine Leaning modeling:
-  We used supervised learning models to predict the chargedoff borrowers.
-  Models Used:
+4. Feature Engineering
+   - Some new columns were created by extracing data from the original columns. ex: month from earliest_cr_line and value from term.
+   - States has been categorized based on the regions.
+5. One hot encoding for all nominal columns and Label encoding for ordinal variables. 
+6. Outliers has been observed on box plots and thus removed them based on z-scores.
+7. Univariate analysis for specific variables to understand their distribution.
+8. Bivariate analysis, plots were done to understand relation between variables and observations were documented.
+9. Multivariate analysis for identify the hightly correlated independent variables.
+10.Heatmap is created to anlyze the correlation between all independent variables.
+11.Pandas profiler is executed to understand the eda view from pandas.
+11.Created funcations for model evaluations, roc and roc-auc plotting.
+12.On step 1 we understood that dataset is imbalanced therefore, we tried following resampling methods for the all the models.
+   - Imbalanced dataset: use data as it is for modeling.
+   - SMOTENN - 
+13.Machine Leaning modeling:
+   Supervised learning models used to predict the chargedoff borrowers:
      - Logistic Regression
      - Random Forest
      - KNN
      - XgBoost
-     
-  We ran models with various resampling methods, as the data set is found to be biased. 
-      - Imbalanced dataset
-      - SMOTENN
-      - SelectKBEST
+  
      
   roc,roc-auc curves were plotted for all the methods.
 10. Model scores were tabulated for comparision.
