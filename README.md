@@ -42,8 +42,8 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
       - Random Forest
       - KNN
       - XgBoost
-      - LDA roc,roc-auc curves were plotted for all the methods.
-
+      - LDA 
+    roc,roc-auc curves were plotted for all the methods.
 16. Model scores were tabulated for comparision.
 
 ![image](https://user-images.githubusercontent.com/79874273/128814414-372a0cc8-bd5b-4d64-b3c0-83e65581e4b1.png)
