@@ -46,11 +46,17 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
     roc,roc-auc curves were plotted for all the methods.
 16. Model scores were tabulated for comparision.
 
-![image](https://user-images.githubusercontent.com/79874273/128814414-372a0cc8-bd5b-4d64-b3c0-83e65581e4b1.png)
 
 
 ***
 # Results:
+- Based on Accuracy : 
+   - XGBoost - Training Score (0.87) - Testing Score(0.87)
+   - KNN - Training Score(0.87) and Testing Score(0.87)
+- Based on F1 Score
+   - XGBoost - Training Score(0.85) - Testing Score(0.85)
+   - Logistic Regression - Training Score(0.84) and Testing Score(0.84)
+-XGBoost model performed better in both cases and model doesn’t look overfitted or under fitted.
 
 ***
  
