@@ -6,7 +6,6 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
 ***
 # Data Analysis:
 1. Checked for basic statistics of the data.
-   - Basic functions such as describe, shape,check for nulls has been performed. 
    - Target variable is bivariate, constains "0" for charged off and "1" for fully paid. 
 2. Preprocessing 
    - Droped unwanted columns that are not in the scope of our analysis.
