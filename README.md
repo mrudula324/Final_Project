@@ -56,7 +56,8 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
 - Based on F1 Score
    - XGBoost - Training Score(0.85) - Testing Score(0.85)
    - Logistic Regression - Training Score(0.84) and Testing Score(0.84)
--XGBoost model performed better in both cases and model doesn’t look overfitted or under fitted.
+   
+- XGBoost model performed better in both cases and model doesn’t look overfitted or under fitted.
 
 ***
  
