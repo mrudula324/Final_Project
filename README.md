@@ -46,6 +46,7 @@ Lending Club is the USA largest electronic peer-to-peer lending platform. Lendin
     roc,roc-auc curves were plotted for all the methods.
 16. Model scores were tabulated for comparision.
 
+![Screen Shot 2021-08-11 at 2 17 19 PM](https://user-images.githubusercontent.com/79874273/129090119-e30bb36d-318f-4fa4-9061-ae6dab2c274d.png)
 
 
 ***
